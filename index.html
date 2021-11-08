@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1, initial-scale=1.0" />
+    <title>Totalizador Stocks</title>
+    <link rel="icon" type="image/x-icon" href="./media/amplio-stock-icon.svg">
+    <meta
+      name="description"
+      content="best webpage to make your owns trainings and onboarding presentations. You can add quiz and keep track of asistance & score"
+    />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <img src="./media/amplio-stock-icon.svg" height="50" width="50" />
+      <ul>
+        <a href="#/pagina1">Nosotros</a>
+      </ul>
+      <ul>
+        <a href="#/pagina1">Totalizador</a>
+      </ul>
+      <ul>
+        <a href="#/pagina2">Stock total</a>
+      </ul>
+      <ul>
+        <input type="barraBusqueda" />
+      </ul>
+      <ul>
+        <input type="button" value="Ingresar" id="btnIngresar" />
+      </ul>
+      <ul>
+        <input
+          type="button"
+          value="Registrarse"
+          id="btnRegistrar"
+          style="background-color: aqua; font: bold"
+        />
+      </ul>
+    </header>
+
+    <div class="intro">
+      <h1 justify="center">Totalizador Stock</h1>
+    </div>
+
+    <div class="intro">
+      <h2 class="center">Nombre del producto</h2>
+      <input type="text" name="Nombre" id="Nombre" />
+      <br />
+      <h2 class="center">Unidad de medida</h2>
+      <input type="text" name="Unidad" id="Unidad" />
+      <br />
+      <h2 class="center">Precio Unidario</h2>
+      <input type="text" name="Precio" id="Precio" />
+      <br />
+      <h2 class="center">Cantidad</h2>
+      <input type="text" name="Cantidad" id="Cantidad" />
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="intro2">
+      <button id="agregar" class="center">Agregar</button>
+      <button id="totalizar" class="center">Mostrar totalizado</button>
+    </div>
+
+    <div class="bloque"></div>
+    <div id="santi"></div>
+    <div class="bloque"></div>
+    <div id="santi2"></div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
